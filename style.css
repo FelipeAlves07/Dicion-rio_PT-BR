@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(4,0,78);
+background: linear-gradient(90deg, rgba(4,0,78,1) 0%, rgba(9,9,121,1) 34%, rgba(0,179,255,1) 100%);
+}
+
+#title {
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#container_two {
+  width: 700px;
+  padding: 30px 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.75);
+}
+
+#container_input {
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+#container_input::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  border-top: 2px solid rgba(14,13,13,0.4);
+  margin-top: 70px;
+  height: 10px;
+  border-radius: 30px;
+}
+
+#container_inputtxt {
+  outline: none;
+  border: 1px solid black;
+  width: 80%;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#container_btn {
+  width: 20%;
+  outline: none;
+  border: 1px solid black;
+  background-color: rgb(0, 157, 255);
+  border-radius: 10px;
+  margin-left: 5px;
+  color: #ffffff;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+#container_btn:hover {
+  background-color: rgb(0, 125, 203);
+}
+
+#container_palavra {
+  color: rgb(0, 157, 255);
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+#container_significado {
+  color: black;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 20px;
+  color: rgb(0, 157, 255);
+}
