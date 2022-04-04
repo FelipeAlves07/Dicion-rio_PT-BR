@@ -6,4 +6,4 @@ Pesquise!
 Encontrou algum erro?
 Me reporte que irei corrigir!
 
-Link:
+Link: https://felipealves07.github.io/Dicion-rio_PT-BR/
